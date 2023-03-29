@@ -1,0 +1,77 @@
+body { 
+    margin: 0;
+    font-family: 'Gruppo', cursive;
+    color: aliceblue;
+    background-color: grey;
+    background-image: url(https://i.pinimg.com/originals/96/c1/0c/96c10c0e89927ac51368afbe3b3d3daf.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(160, 255, 225, 0.780);
+    height: 100px;
+    align-items: center;
+    padding: 10px;
+    min-height: 70px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 100px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(25, 0, 255);
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10 px 0px;
+    }
+}
+
+.d{
+    text-align: center;
+
+}
+.d:hover{
+    border-bottom: 3px solid aliceblue;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+,a{
+    text-align: center;
+}
+
+hr{
+    border-width: 2px;
+    border-color: aquamarine;
+}
